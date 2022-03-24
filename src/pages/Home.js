@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import AppsIcon from "@mui/icons-material/Apps"
 import "./Home.css"
+import Search from './Search'
 function Home() {
   return (
     <div className="home">
@@ -22,8 +23,7 @@ function Home() {
 
         <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'></img>
         <div className="header_inputContainer">
-
-
+          <Search/>
         </div>
       </div>
 
