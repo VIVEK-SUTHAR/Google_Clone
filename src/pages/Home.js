@@ -21,9 +21,10 @@ function Home() {
       <div className="home_body">
 
         <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'></img>
-        <center>
-        INPUT WILL HER
-        </center>
+        <div className="header_inputContainer">
+
+
+        </div>
       </div>
 
     </div>
