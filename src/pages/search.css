@@ -35,4 +35,17 @@
     padding: 7px 15px;
     background-color: #f8f8f8;
     border: 1px solid white;
+    text-transform: inherit;
+    color: #5f6368;
+}
+
+.search_buttons button:hover {
+    border: 1px solid #c6c6c6;
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    color: #222;
+}
+.search_buttonsHidden{
+    display: none !important;
 }
