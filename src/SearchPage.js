@@ -60,10 +60,10 @@ const SearchPage = () => {
                 </div>
             </div>
             {
-                true && (
+                term && (
                     <div className="searchPage_results">
                         <p className="searchPage_resultCount">
-                            About {data?.searchInformation.formattedTotalResults} results ({data?.searchInformation.formattedSearchTime}) for  {term}
+                            About {data?.searchInformation.formattedTotalResults} results ({data?.searchInformation.formattedSearchTime}seconds) for  {term}
                         </p>
                         {
                             data?.items.map(item => (
